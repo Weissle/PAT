@@ -27,6 +27,7 @@ class solution1021 {
 			unsigned int down = p[a].size() + p[b].size();
 			unsigned int up = 0;
 			mySet *small, *big;
+			//区分集合size，减少find的寻找次数
 			if (p[a].size() > p[b].size()) {
 				small = &p[b];
 				big = &p[a];
@@ -35,6 +36,7 @@ class solution1021 {
 				big = &p[b];
 				small = &p[a];
 			}
+			
 			for (auto it = small->begin(); it != small->end(); ++it) {
 				auto temp = *it;
 				if (big->find(temp) != big->end()) ++up;
