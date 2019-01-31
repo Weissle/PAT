@@ -2,7 +2,7 @@
 #include<map>
 #include<set>
 using namespace std;
-class solution1021 {
+class solution1063 {
 	int main() {
 		typedef set<unsigned int> mySet;
 		int n;

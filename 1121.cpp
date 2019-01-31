@@ -48,9 +48,10 @@ public:
 		return 0;
 	}
 };
+/*
 int main() {
 	solution1121 p;
 	p.main();
 	system("pause");
 	return 0;
-}
+}*/
