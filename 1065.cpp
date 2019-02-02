@@ -57,7 +57,7 @@ int main() {
 	return 0;
 }
 */
-
+/*
 int main() {
 	int T, tcase = 1;
 	scanf("%d", &T);
@@ -74,4 +74,4 @@ int main() {
 		else printf("Case #%d: false\n", tcase++);
 	}
 	return 0;
-}
+}*/
