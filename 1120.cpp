@@ -9,7 +9,7 @@
 #include<math.h>
 #include<stack>
 using namespace std;
-
+//set中元素自动排序，重载<可以实现自定义序列！！
 class solution1120 {
 	int N;
 	set<int> id;
@@ -29,16 +29,17 @@ public:
 			scanf("%d", &temp);
 			id.insert(calID(temp));
 		}
-		vector<int> p;
+
+/*		vector<int> p;
 		p.reserve(id.size());
 		for (auto i = id.begin(); i != id.end(); ++i) {
 			p.push_back(*i);
 		}
-		sort(p.begin(), p.end());
-		printf("%d\n", p.size());
-		for (auto i = 0; i < p.size(); ++i) {
-			if (i)printf(" ");
-			printf("%d", p[i]);
+		sort(p.begin(), p.end());*/
+		printf("%d\n", id.size());
+		for (auto i = id.begin(); i != id.end(); ++i) {
+			if (i != id.begin())printf(" ");
+			printf("%d", *i);
 		}
 		return 0;
 	}
