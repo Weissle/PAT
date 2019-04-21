@@ -50,10 +50,10 @@ public:
 	
 	}
 };
-/*
+
 int main() {
 	solution1032 p;
 	p.main();
 	system("pause");
 	return 0;
-}*/
+}

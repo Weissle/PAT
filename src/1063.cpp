@@ -3,6 +3,7 @@
 #include<set>
 using namespace std;
 class solution1063 {
+public:
 	int main() {
 		typedef set<unsigned int> mySet;
 		int n;
@@ -44,6 +45,13 @@ class solution1063 {
 			down -= up;
 			printf("%.1f%%\n", (1.0*up / down) * 100);
 		}
-		system("pause");
+		return 0;
 	}
 };
+int main() {
+	solution1063 p;
+	p.main();
+
+	system("pause");
+	return 0;
+}

@@ -71,10 +71,10 @@ public:
 	}
 
 };
-/*
+
 int main() {
 	solution1078 p;
 	p.main();
 	system("pause");
 	return 0;
-}*/
+}

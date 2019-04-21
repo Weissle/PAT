@@ -66,10 +66,10 @@ public:
 	}
 
 };
-/*
+
 int main() {
 	solution1105 p;
 	p.main();
 	system("pause");
 	return 0;
-}*/
+}

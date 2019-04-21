@@ -48,7 +48,7 @@ public:
 	}
 
 };
-/*
+
 int main() {
 	solution1065 p;
 	p.main();
@@ -56,7 +56,7 @@ int main() {
 	system("pause");
 	return 0;
 }
-*/
+
 /*
 int main() {
 	int T, tcase = 1;
