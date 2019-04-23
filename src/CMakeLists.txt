@@ -19,6 +19,7 @@ add_executable(1120.exe 1120.cpp)
 add_executable(1068.exe 1068.cpp)
 add_executable(1085.exe 1085.cpp)
 add_executable(1059.exe 1059.cpp)
+add_executable(1057.exe 1057.cpp)
 add_executable(NoUse test.cpp)
 set_target_properties(NoUse PROPERTIES FOLDER "Test")
 
